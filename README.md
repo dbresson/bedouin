@@ -22,7 +22,7 @@ Or install it yourself as:
 
 Create one or more environment files and one or more ERB job templates, and then execute:
 
-    $ bedouin <environment file> <template1> <template2> ...
+    $ bedouin [nomad option ...] [--] <environment file> <template1> <template2> ...
 
 Bedouin will evaluate each template with any attributes from the environment file available as instance variables. Bedouin will then run the results of each with "nomad run".
 
